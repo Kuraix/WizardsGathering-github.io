@@ -1,0 +1,76 @@
+body {
+  margin: 0px;
+ 
+  width: 100%;
+}
+
+header {
+  text-align: center;
+  padding: 50px;
+  font-family: 'Fredoka One', sans-serif;
+  background-color: ;
+  font-size: 20px;
+}
+
+article {
+  position: relative;
+  text-align: center;
+  font-family: 'Fredoka One', sans-serif;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    background-image: grey;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 300;
+}
+
+
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Fredoka One', sans-serif;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: blue;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color:
+  color: white;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
